@@ -1,0 +1,21 @@
+package org.col;
+
+import java.util.Hashtable;
+
+public class Challenge26 {
+
+	public static void main(String[] args) {
+		//Key : Sam, Karthik, Gowtham, Gokul, Neethu
+		//Values : Selenium, framework, oracle, corejava, jira
+		Hashtable<String, String> m = new Hashtable<>();
+		m.put("Sam", "Selenium");
+		m.put("Karthik", "framework");
+		m.put("Gowtham", "oracle");
+		m.put("Gokul", "corejava");
+		m.put("Neethu", "jira");
+		for (String k : m.keySet()) {
+			System.out.println("Key Values : " + k);
+		}
+	}
+
+}
